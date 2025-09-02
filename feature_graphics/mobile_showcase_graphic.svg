@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024" height="500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="backgroundGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#EADDff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D0BCFF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="phoneGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1C1B1F;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2D2A32;stop-opacity:1" />
+    </linearGradient>
+    <filter id="phoneShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="rgba(0,0,0,0.3)"/>
+    </filter>
+    <filter id="screenGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="rgba(103,80,164,0.3)"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1024" height="500" fill="url(#backgroundGradient)"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="150" cy="80" r="40" fill="rgba(103,80,164,0.2)"/>
+  <circle cx="874" cy="420" r="60" fill="rgba(103,80,164,0.15)"/>
+  <circle cx="900" cy="100" r="30" fill="rgba(103,80,164,0.25)"/>
+  
+  <!-- Left side content -->
+  <g transform="translate(80, 50)">
+    <text x="0" y="40" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#1C1B1F">
+      CONVERTY
+    </text>
+    <text x="0" y="70" font-family="Arial, sans-serif" font-size="18" fill="#49454F">
+      Universal Unit Converter
+    </text>
+    
+    <!-- Features list -->
+    <g transform="translate(0, 120)">
+      <circle cx="8" cy="0" r="4" fill="#6750A4"/>
+      <text x="25" y="5" font-family="Arial, sans-serif" font-size="16" fill="#1C1B1F">
+        <tspan font-weight="bold">Length Conversion</tspan>
+      </text>
+      <text x="25" y="25" font-family="Arial, sans-serif" font-size="14" fill="#625B71">
+        Inches, Feet, Centimeters, Meters
+      </text>
+      
+      <circle cx="8" cy="60" r="4" fill="#6750A4"/>
+      <text x="25" y="65" font-family="Arial, sans-serif" font-size="16" fill="#1C1B1F">
+        <tspan font-weight="bold">Temperature Conversion</tspan>
+      </text>
+      <text x="25" y="85" font-family="Arial, sans-serif" font-size="14" fill="#625B71">
+        Celsius and Fahrenheit
+      </text>
+      
+      <circle cx="8" cy="120" r="4" fill="#6750A4"/>
+      <text x="25" y="125" font-family="Arial, sans-serif" font-size="16" fill="#1C1B1F">
+        <tspan font-weight="bold">Currency Conversion</tspan>
+      </text>
+      <text x="25" y="145" font-family="Arial, sans-serif" font-size="14" fill="#625B71">
+        80+ currencies with live rates
+      </text>
+      
+      <circle cx="8" cy="180" r="4" fill="#6750A4"/>
+      <text x="25" y="185" font-family="Arial, sans-serif" font-size="16" fill="#1C1B1F">
+        <tspan font-weight="bold">Modern Material Design 3</tspan>
+      </text>
+      <text x="25" y="205" font-family="Arial, sans-serif" font-size="14" fill="#625B71">
+        Beautiful and intuitive interface
+      </text>
+    </g>
+    
+    <!-- Call to action -->
+    <rect x="0" y="350" width="180" height="50" rx="25" fill="#6750A4"/>
+    <text x="90" y="380" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#FFFFFF">
+      Download Now
+    </text>
+  </g>
+  
+  <!-- Phone mockup -->
+  <g transform="translate(550, 50)">
+    <!-- Phone body -->
+    <rect x="0" y="0" width="280" height="400" rx="35" fill="url(#phoneGradient)" filter="url(#phoneShadow)"/>
+    
+    <!-- Screen -->
+    <rect x="20" y="30" width="240" height="340" rx="25" fill="#FFFFFF" filter="url(#screenGlow)"/>
+    
+    <!-- Status bar -->
+    <rect x="30" y="40" width="220" height="20" fill="#6750A4"/>
+    <text x="40" y="55" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF">
+      Converty
+    </text>
+    <text x="230" y="55" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="rgba(255,255,255,0.8)">
+      100%
+    </text>
+    
+    <!-- App interface mockup -->
+    <!-- Conversion type selector -->
+    <rect x="40" y="80" width="200" height="30" rx="15" fill="#EADDff"/>
+    <text x="140" y="100" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#6750A4">
+      Currency
+    </text>
+    
+    <!-- Input field -->
+    <rect x="40" y="130" width="200" height="40" rx="8" fill="#F8F9FA" stroke="#E7E0EC" stroke-width="1"/>
+    <text x="50" y="155" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1C1B1F">
+      100
+    </text>
+    
+    <!-- From unit dropdown -->
+    <rect x="40" y="185" width="90" height="35" rx="8" fill="#EADDff"/>
+    <text x="85" y="207" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#6750A4">
+      USD
+    </text>
+    
+    <!-- Swap button -->
+    <circle cx="165" cy="202" r="15" fill="#6750A4"/>
+    <path d="M160 197 L170 197 M167 194 L170 197 L167 200" stroke="#FFFFFF" stroke-width="1.5" fill="none"/>
+    <path d="M170 207 L160 207 M163 204 L160 207 L163 210" stroke="#FFFFFF" stroke-width="1.5" fill="none"/>
+    
+    <!-- To unit dropdown -->
+    <rect x="190" y="185" width="90" height="35" rx="8" fill="#EADDff"/>
+    <text x="235" y="207" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#6750A4">
+      EUR
+    </text>
+    
+    <!-- Result -->
+    <rect x="40" y="240" width="200" height="50" rx="8" fill="#F8F9FA"/>
+    <text x="50" y="260" font-family="Arial, sans-serif" font-size="12" fill="#625B71">
+      Result:
+    </text>
+    <text x="50" y="280" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#6750A4">
+      85.42 EUR
+    </text>
+    
+    <!-- Live rate indicator -->
+    <circle cx="50" cy="310" r="3" fill="#4CAF50"/>
+    <text x="60" y="315" font-family="Arial, sans-serif" font-size="10" fill="#625B71">
+      Live exchange rates
+    </text>
+    
+    <!-- Clear button -->
+    <rect x="140" y="335" width="60" height="25" rx="12" fill="#6750A4"/>
+    <text x="170" y="350" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#FFFFFF">
+      Clear
+    </text>
+  </g>
+  
+  <!-- Bottom accent -->
+  <rect x="0" y="480" width="1024" height="20" fill="rgba(103,80,164,0.3)"/>
+</svg>

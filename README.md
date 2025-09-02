@@ -197,10 +197,6 @@ Run tests:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - **CurrencyFreaks API** for providing free currency exchange rates
@@ -208,10 +204,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Jetpack Compose** team for the amazing UI toolkit
 - **Android Architecture Components** for robust architecture patterns
 
-## 📞 Contact
-
-For questions, suggestions, or contributions, please open an issue on GitHub.
-
----
-
-**Built with ❤️ using Kotlin and Jetpack Compose**

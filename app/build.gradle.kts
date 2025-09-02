@@ -8,11 +8,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.myapplication"
+    namespace = "com.kamel.projects"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.myapplication"
+        applicationId = "com.kamel.projects"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
